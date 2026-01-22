@@ -8,7 +8,6 @@
 
 .header-contents{
     position: absolute;
-    /* display: flex; */
     flex-direction: column;
     gap: 1.5vw;
     max-width: 40%;
@@ -41,20 +40,14 @@
     border-radius: 50px;
 }
 
-@media (max-width:1050) {
+@media (max-width: 1050px) {
    .header-contents{
     max-width: 45%;
    }
 }
 
-@media (max-width:750) {
-   .header-contents{
-    max-width: 65%;
-   }
-   .header-contents p{
-    display: none;
-   }
-   .header-contents button{
-    padding: 2vw 4vw;
-   }
+@media (max-width: 750px) {
+    .header-contents {
+        display: none;
+    }
 }
